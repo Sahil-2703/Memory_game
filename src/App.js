@@ -1,24 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Cards from "./components/Cards";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className=" flex flex-col justify-center items-center w-[100vw] h-[100vh]">
+        <p className="text-4xl font-bold"> Remember the Color </p>
+        {/* <div className="container mx-auto bg-black w-[70%] h-[70%] mt-10"> */}
+          <Cards />
+        {/* </div> */}
+      </div>
+    </>
   );
 }
 
