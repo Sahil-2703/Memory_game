@@ -8,7 +8,7 @@ This project is developed from React.js, and in this project we have made a game
 
 Firstly, install the node_modules in your directory after cloning this repository.(Use below code to install).
 
-### `npm start`
+### `npm i`
 
 
 Run the below command in your terminal
